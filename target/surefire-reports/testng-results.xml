@@ -2,36 +2,15 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="OrangeHRM" duration-ms="51985" started-at="2020-02-21T15:57:43Z" finished-at="2020-02-21T15:58:35Z">
+  <suite name="OrangeHRM" duration-ms="117253" started-at="2020-02-21T17:37:52Z" finished-at="2020-02-21T17:39:49Z">
     <groups>
       <group name="LoginGroup">
-        <method signature="LoginTests.TC1VerifyValidAdminUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginTests@1550481]" name="TC1VerifyValidAdminUser" class="com.orangehrm.tests.LoginTests"/>
+        <method signature="LoginTests.TC1VerifyValidAdminUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginTests@12050f6]" name="TC1VerifyValidAdminUser" class="com.orangehrm.tests.LoginTests"/>
       </group> <!-- LoginGroup -->
     </groups>
-    <test name="OrangeHRM test" duration-ms="51985" started-at="2020-02-21T15:57:43Z" finished-at="2020-02-21T15:58:35Z">
+    <test name="OrangeHRM test" duration-ms="117253" started-at="2020-02-21T17:37:52Z" finished-at="2020-02-21T17:39:49Z">
       <class name="com.orangehrm.tests.LoginTests">
-        <test-method status="PASS" signature="TC1VerifyValidAdminUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginTests@1550481]" name="TC1VerifyValidAdminUser" duration-ms="29779" started-at="2020-02-21T15:57:48Z" data-provider="excelData" finished-at="2020-02-21T15:58:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Aman12019112313024]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Aman123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Welcome Anup]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC1VerifyValidAdminUser -->
-        <test-method status="PASS" signature="TC1VerifyValidAdminUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginTests@1550481]" name="TC1VerifyValidAdminUser" duration-ms="29506" started-at="2020-02-21T15:57:48Z" data-provider="excelData" finished-at="2020-02-21T15:58:17Z">
+        <test-method status="PASS" signature="TC1VerifyValidAdminUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginTests@12050f6]" name="TC1VerifyValidAdminUser" duration-ms="113686" started-at="2020-02-21T17:37:56Z" data-provider="excelData" finished-at="2020-02-21T17:39:49Z">
           <params>
             <param index="0">
               <value>
@@ -52,7 +31,28 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC1VerifyValidAdminUser -->
-        <test-method status="FAIL" signature="TC1VerifyValidAdminUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginTests@1550481]" name="TC1VerifyValidAdminUser" duration-ms="45873" started-at="2020-02-21T15:57:48Z" data-provider="excelData" finished-at="2020-02-21T15:58:34Z">
+        <test-method status="PASS" signature="TC1VerifyValidAdminUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginTests@12050f6]" name="TC1VerifyValidAdminUser" duration-ms="98792" started-at="2020-02-21T17:37:56Z" data-provider="excelData" finished-at="2020-02-21T17:39:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aman12019112313024]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aman123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Welcome Anup]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1VerifyValidAdminUser -->
+        <test-method status="FAIL" signature="TC1VerifyValidAdminUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginTests@12050f6]" name="TC1VerifyValidAdminUser" duration-ms="70892" started-at="2020-02-21T17:37:56Z" data-provider="excelData" finished-at="2020-02-21T17:39:07Z">
           <params>
             <param index="0">
               <value>
@@ -101,9 +101,9 @@ Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable t
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DANKSH-PC', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:51896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 066f0d3f6c8e5111ef5419937d276038
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\danksh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52915}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 1b685fe36d372dbffc1d6d9bdbb...}
+Session ID: 1b685fe36d372dbffc1d6d9bdbb448b2
 *** Element info: {Using=id, value=welcome}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -113,7 +113,6 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpR
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
 at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
@@ -136,7 +135,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC1VerifyValidAdminUser -->
-        <test-method status="PASS" signature="afterSuit()[pri:0, instance:com.orangehrm.tests.LoginTests@1550481]" name="afterSuit" is-config="true" duration-ms="568" started-at="2020-02-21T15:58:35Z" finished-at="2020-02-21T15:58:36Z">
+        <test-method status="PASS" signature="afterSuit()[pri:0, instance:com.orangehrm.tests.LoginTests@12050f6]" name="afterSuit" is-config="true" duration-ms="1111" started-at="2020-02-21T17:39:50Z" finished-at="2020-02-21T17:39:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuit -->

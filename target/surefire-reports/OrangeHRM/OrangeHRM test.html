@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Feb 21 21:27:43 IST 2020</td>
+<td>Started on:</td><td>Fri Feb 21 23:07:52 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>51 seconds (51985 ms)</td>
+<tr><td>Total time:</td><td>117 seconds (117253 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -102,9 +102,9 @@ Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable t
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DANKSH-PC&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:51896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 066f0d3f6c8e5111ef5419937d276038
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\danksh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52915}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 1b685fe36d372dbffc1d6d9bdbb...}
+Session ID: 1b685fe36d372dbffc1d6d9bdbb448b2
 *** Element info: {Using=id, value=welcome}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -114,7 +114,6 @@ Session ID: 066f0d3f6c8e5111ef5419937d276038
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
@@ -131,8 +130,8 @@ Session ID: 066f0d3f6c8e5111ef5419937d276038
 	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
 	... 18 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace7997926", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace7997926'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.id: welcome&apos; (tried for 10 second(s) with 500 milliseconds interval)
+</pre></div><a href='#' onClick='toggleBox("stack-trace8481051", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace8481051'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.id: welcome&apos; (tried for 10 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
 	at com.orangehrm.pages.HomePageAfterLogin.isHomePageLoaded(HomePageAfterLogin.java:30)
@@ -158,9 +157,9 @@ Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable t
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DANKSH-PC&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:51896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 066f0d3f6c8e5111ef5419937d276038
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\danksh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52915}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 1b685fe36d372dbffc1d6d9bdbb...}
+Session ID: 1b685fe36d372dbffc1d6d9bdbb448b2
 *** Element info: {Using=id, value=welcome}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -170,7 +169,6 @@ Session ID: 066f0d3f6c8e5111ef5419937d276038
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
@@ -188,8 +186,8 @@ Session ID: 066f0d3f6c8e5111ef5419937d276038
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
 	... 18 more
 </pre></div></td>
-<td>45</td>
-<td>com.orangehrm.tests.LoginTests@1550481</td></tr>
+<td>70</td>
+<td>com.orangehrm.tests.LoginTests@12050f6</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -199,15 +197,15 @@ Session ID: 066f0d3f6c8e5111ef5419937d276038
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.orangehrm.tests.LoginTests.TC1VerifyValidAdminUser()'><b>TC1VerifyValidAdminUser</b><br>Test class: com.orangehrm.tests.LoginTests<br>Parameters: admin, admin, Welcome Admin</td>
-<td></td>
-<td>29</td>
-<td>com.orangehrm.tests.LoginTests@1550481</td></tr>
-<tr>
 <td title='com.orangehrm.tests.LoginTests.TC1VerifyValidAdminUser()'><b>TC1VerifyValidAdminUser</b><br>Test class: com.orangehrm.tests.LoginTests<br>Parameters: Aman12019112313024, Aman123, Welcome Anup</td>
 <td></td>
-<td>29</td>
-<td>com.orangehrm.tests.LoginTests@1550481</td></tr>
+<td>98</td>
+<td>com.orangehrm.tests.LoginTests@12050f6</td></tr>
+<tr>
+<td title='com.orangehrm.tests.LoginTests.TC1VerifyValidAdminUser()'><b>TC1VerifyValidAdminUser</b><br>Test class: com.orangehrm.tests.LoginTests<br>Parameters: admin, admin, Welcome Admin</td>
+<td></td>
+<td>113</td>
+<td>com.orangehrm.tests.LoginTests@12050f6</td></tr>
 </table><p>
 </body>
 </html>
